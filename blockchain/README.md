@@ -1,5 +1,5 @@
 # client-biz-suite
-Client Business Suite Template
+Client Business Suite Template， 请根据项目需求进行裁剪
 
 
 
