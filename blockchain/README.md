@@ -4,7 +4,7 @@ Client Business Suite Template， 请根据项目需求进行裁剪
 
 
 ## bizcore: 服务器端业务核心代码项目， Business Core
-## bizui：中台集成界面项目， Business UI，不是闭嘴！
+## bizui：中台集成界面项目， Business UI，不是闭嘴！基于antd的后台
 ## datavisual: 数据大屏前台项目， Data Visual
 ## databrain： 大数据后台运算中心
 ## iot： 物联网子项目， Internet of Things
