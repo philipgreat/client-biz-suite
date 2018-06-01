@@ -1,10 +1,8 @@
 # !/bin/bash
 projectname="__project_name__"
+echo "# $projectname " >> README.md
 git init
-git add .
-git commit -m "First commit"
-git remote add origin "https://github.com/philipgreat/$projectname.git"
-git remote -v
-git pull
-git push --set-upstream origin master
-git push
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/philipgreat/$projectname.git
+git push -u origin master
