@@ -20,6 +20,9 @@ README.md		bbt_custom_src		package-lock.json	public			yarn.lock
 
 curl https://raw.githubusercontent.com/philipgreat/client-biz-suite/master/create.sh|bash -s kai5
 
+在github上创建一个空的git repository(需要确认是否已经创建）
+
+然后进入目录，执行bash gitinit.sh
 
 
 
