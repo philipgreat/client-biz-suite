@@ -1,5 +1,5 @@
 # !/bin/bash
-
+projectname="__project_name__"
 git init
 git add .
 git commit -m "First commit"
