@@ -8,8 +8,9 @@ echo "copying bizcore..........$projectname/bizcore/"
 cp -Ra skynet-common-app-framework/*  "$projectname/bizcore/"
 echo "copying bizui..........to $projectname/bizui/"
 cp -Ra skynet-react-framework/* "$projectname/bizui/"
-echo "done"
+echo "repalcing __project_name__ to $projectname"
 sed -i -e  "s/__project_name__/$projectname/g" $projectname/gitinit.sh 
+echo "done"
 
 
 
