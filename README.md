@@ -1,6 +1,26 @@
 # client-biz-suite
 Client Business Suite Template
 
+使用准备，保证skynet-common-app-framework和skynet-react-framework连个项目在你的根目录下
+
+$ ll skynet-common-app-framework skynet-react-framework
+
+```
+zhangxilais-MacBook-Pro:githome Philip$ ls skynet-common-app-framework skynet-react-framework
+skynet-common-app-framework:
+LICENSE		README.md	WEB-INF		build.gradle	settings.gradle	statics		viewlayers
+
+skynet-react-framework:
+CODE_OF_CONDUCT.md	README.zh-CN.md		dump.rdb		package.json		src
+LICENSE			appveyor.yml		mock			package.json.back	tests
+README.md		bbt_custom_src		package-lock.json	public			yarn.lock
+```
+然后准备工作区
+
+
+curl https://raw.githubusercontent.com/philipgreat/client-biz-suite/master/create.sh|bash -s kai5
+
+
 
 
 ## bizcore: 服务器端核心代码项目， Business Core
