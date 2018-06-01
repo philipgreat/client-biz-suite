@@ -9,4 +9,7 @@ cp -Ra skynet-common-app-framework/*  "$projectname/bizcore/"
 echo "copying bizui.........."
 cp -Ra skynet-react-framework/* "$projectname/bizui/"
 echo "done"
+sed -i -e  "s/__project_name__/$projectname/g" $projectname/gitinit.sh 
+
+
 
