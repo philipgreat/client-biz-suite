@@ -1,2 +1,6 @@
-git clone https://github.com/philipgreat/client-biz-suite.git  "$1-biz-suite" &&  rm -rf "$1-biz-suite" /.git
+# !/bin/bash
 
+projectname="$1-biz-suite "
+git clone https://github.com/philipgreat/client-biz-suite.git  $projectname 
+rm -rf kaisi-biz-suite/.git && cp -Ra skynet-common-app-framework/*  $projectname/bizcore/ 
+cp -Ra skynet-react-framework/* $projectname/bizui/
