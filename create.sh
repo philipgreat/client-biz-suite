@@ -1,6 +1,6 @@
 # !/bin/bash
 
-projectname="$1-biz-suite "
+projectname="$1-biz-suite"
 git clone https://github.com/philipgreat/client-biz-suite.git  $projectname 
 rm -rf $projectname/.git
 echo "copying bizcore.........."
