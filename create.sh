@@ -12,7 +12,7 @@ echo "copying bizui..........to $projectname/bizui/"
 cp -Ra skynet-react-framework/. "$projectname/bizui/"
 echo "repalcing __project_name__ to $projectname in gitinit.sh"
 sed -i -e  "s/__project_name__/$projectname/g" $projectname/gitinit.sh 
-echo "done"
+echo "done....do not forget create an EMPTY git repository!!"
 
 
 
