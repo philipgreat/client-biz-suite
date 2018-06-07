@@ -6,8 +6,9 @@ rm -rf $projectname/.git
 echo "$projectname" >> $projectname/projectname
 echo "copying bizcore..........$projectname/bizcore/"
 cp -Ra skynet-common-app-framework/*  "$projectname/bizcore/"
-mv "$projectname/bizcore/viewlayers/*" "$projectname/bizcore/"
-mv "$projectname/bizcore/static/*" "$projectname/bizcore/"
+echo "moving folder to upper structure...."
+mv $projectname/bizcore/viewlayers/* $projectname/bizcore
+mv $projectname/bizcore/statics/* $projectname/bizcore
 echo "copying bizui..........to $projectname/bizui/"
 cp -Ra skynet-react-framework/. "$projectname/bizui/"
 echo "repalcing __project_name__ to $projectname in gitinit.sh"
