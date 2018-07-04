@@ -1,7 +1,7 @@
 # !/bin/bash
 
 function deploy(){
-    local projname="__projname__"
+    local projname="__project_name__"
 
     if [ -z "$projname" ]; then
        echo "no project name provided"
