@@ -14,6 +14,8 @@ cp -Ra skynet-react-framework/. "$projectname/bizui/"
 rm -rf skynet-react-framework/. "$projectname/bizui/.git"
 echo "repalcing __project_name__ to $projectname in gitinit.sh"
 sed -i -e  "s/__project_name__/$projectname/g" $projectname/gitinit.sh 
+echo "repalcing __project_name__ to $projectname in deploy.sh"
+sed -i -e  "s/__project_name__/$projectname/g" $projectname/deploy.sh 
 echo "done....do not forget create an EMPTY git repository!!"
 
 
