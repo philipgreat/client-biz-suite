@@ -11,7 +11,7 @@ mv $projectname/bizcore/viewlayers/* $projectname/bizcore
 mv $projectname/bizcore/statics/* $projectname/bizcore
 echo "copying bizui..........to $projectname/bizui/"
 cp -Ra skynet-react-framework/. "$projectname/bizui/"
-rm -rf skynet-react-framework/. "$projectname/bizui/.git"
+rm -rf "$projectname/bizui/.git"
 echo "repalcing __project_name__ to $projectname in gitinit.sh"
 sed -i -e  "s/__project_name__/$projectname/g" $projectname/gitinit.sh 
 echo "repalcing __project_name__ to $projectname in deploy.sh"
