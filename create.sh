@@ -12,6 +12,7 @@ mv $projectname/bizcore/statics/* $projectname/bizcore
 echo "copying bizui..........to $projectname/bizui/"
 cp -Ra skynet-react-framework/. "$projectname/bizui/"
 rm -rf "$projectname/bizui/.git"
+rm -rf "$projectname/bizui/src/axios/config.js"
 rm -rf "$projectname/bizcore/.classpath"
 rm -rf "$projectname/bizcore/.project"
 echo "repalcing __project_name__ to $projectname in gitinit.sh"
