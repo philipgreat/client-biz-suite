@@ -15,6 +15,9 @@ rm -rf "$projectname/bizui/.git"
 rm -rf "$projectname/bizui/src/axios/config.js"
 rm -rf "$projectname/bizcore/.classpath"
 rm -rf "$projectname/bizcore/.project"
+rm -rf "$projectname/bizcore/settings.gradle"
+rm -rf "$projectname/bizcore/build.gradle"
+
 echo "repalcing __project_name__ to $projectname in gitinit.sh"
 sed -i -e  "s/__project_name__/$projectname/g" $projectname/gitinit.sh 
 echo "repalcing __project_name__ to $projectname in deploy.sh"
